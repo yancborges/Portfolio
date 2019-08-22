@@ -6,7 +6,7 @@
   top: 0;  
   left: 0;
   background-color: #060f1c;  
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
   padding-top: 60px;  
   transition: 0.5s;  
 }
@@ -70,7 +70,7 @@
 }
 
 .code-background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/selfClass.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../img/selfClass.png');
   /*background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 1.0)), url('../img/selfClass.png');*/
   background-size: cover;
   margin-bottom: 30px;
@@ -96,4 +96,26 @@ picture img {
 
 .block {
   padding: 80px;
+}
+
+.foot-nav {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0.2));
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.foot-nav a {
+  color: white;
+}
+
+.important {
+  color: #00ffff !important;
+}
+
+.btn-outline-lj {
+  color: #00ffff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #00ffff;
 }
