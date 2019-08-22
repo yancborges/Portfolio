@@ -99,7 +99,7 @@ picture img {
 }
 
 .foot-nav {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0.2));
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0.1));
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -114,6 +114,28 @@ picture img {
 }
 
 .btn-outline-lj {
+  color: #00ffff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #00ffff;
+}
+
+  .btn-outline-lj:focus, .btn-outline-lj.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 255, 255, 0.5);
+}
+
+  .btn-outline-lj:hover {
+  color: #fff;
+  background-color: #29c4c4;
+  border-color: #29c4c4;
+}
+
+.neon {
+  text-shadow: 1px 1px 3px #00ffff, -1px -1px 3px  #00ffff, -1px 1px 3px  #00ffff, 1px -1px 3px #00ffff;
+  color: black;
+}
+
+.card-lj {
   color: #00ffff;
   background-color: transparent;
   background-image: none;

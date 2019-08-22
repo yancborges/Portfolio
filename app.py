@@ -13,6 +13,10 @@ app.secret_key='hiddenpass'
 def index():
     return render_template("index.html")
 
+@app.route('/works')
+def works():
+	return render_template("works.html")
+
 # Running
 
 if __name__ == '__main__':
