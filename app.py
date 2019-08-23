@@ -17,6 +17,18 @@ def index():
 def works():
 	return render_template("works.html")
 
+@app.route('/academics')
+def academics():
+	return render_template("academics.html")
+
+@app.route('/notcode')
+def notcode():
+	return render_template("notcode.html")
+
+@app.route('/skills')
+def skills():
+	return render_template("skills.html")
+
 # Running
 
 if __name__ == '__main__':
