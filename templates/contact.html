@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+    {% block body %}
+
+    <div class="container">
+    	<h3>I look forward to work with you!</h3>
+    	<div class="btn-group btn-group-toggle" data-toggle="buttons">
+  			<a href="https://www.linkedin.com/in/yan-carvalho-borges-576b2a161/" class="btn btn-success" target="_blank">Linkedin</a>
+  			<a href="https://github.com/yancborges" class="btn btn-success" target="_blank">Github</a>
+  			<button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="bottom" title="yan.cborges@gmail.com">
+  				yan.cborges@gmail.com
+			</button>
+		</div>
+    </div>
+    <script>
+    	$(function () {
+  			$('[data-toggle="tooltip"]').tooltip()
+		})
+	</script>
+
+
+    {% endblock %}

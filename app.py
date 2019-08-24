@@ -29,6 +29,10 @@ def notcode():
 def skills():
 	return render_template("skills.html")
 
+@app.route('/contact')
+def contact():
+	return render_template("contact.html")
+
 # Running
 
 if __name__ == '__main__':
