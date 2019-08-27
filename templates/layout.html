@@ -9,7 +9,7 @@
 <body id="main">
 	<div class="code-background bar" id="bar">
 		<div class="row block" id="content">
-			<div class="col-lg-4 .col-md-1 text-center">
+			<div class="col-lg-4 col-md-3 text-center">
 				<img src="../static/img/me2.jpg" class="img-fluid img-thumbnail profile" alt="...">
 				<h2>Yan Carvalho</h2>
 				<h4>Developer</h4>
@@ -17,13 +17,14 @@
 					Web developer, data scientist aspirant <br/>and absolutely curious
 				</p>
 			</div>
-			<div class="col-lg-8 col-md-11" id="mutant">
+			<div class="col-lg-8 col-md-9" id="mutant">
 				{% block body %}{% endblock %}
 			</div>
 		</div>
 		{% include 'includes/footer.html' %}
 	</div>
 </body>
-	<script src="js/bootstrap.js"></script>
-	<script src="js/scripts.js"></script>
+	<script src="../static/js/popper.min.js"></script>
+	<script src="../static/js/bootstrap.js"></script>
+	<script src="../static/js/scripts.js"></script>
 </html>
